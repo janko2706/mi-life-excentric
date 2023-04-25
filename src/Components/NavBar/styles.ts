@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
-export const NavBarStyled = styled.div`
+export const NavBarStyled = styled.nav`
   position: fixed;
   display: flex;
   justify-content: center;
@@ -60,8 +60,9 @@ export const NavBarStyled = styled.div`
     }
   }
 `;
-export const NeonTitle = styled.div`
+export const NeonTitle = styled.h1`
   font-family: 'Sacramento', cursive;
+  font-weight: 400;
   font-size: 3em;
   width: fit-content;
   height: 100%;

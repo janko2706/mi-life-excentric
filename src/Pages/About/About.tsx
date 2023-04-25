@@ -41,15 +41,15 @@ const About = () => {
       >
         <Container>
           <div className='textCont'>
-            <motion.div
+            <motion.h1
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='title'
             >
               The Company
-            </motion.div>
-            <motion.div
+            </motion.h1>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
@@ -63,16 +63,16 @@ const About = () => {
               dugogodišnjeg rada stoje mnogobrojni projekti kako u Hrvatskoj
               tako i u inozemstvu. Nastojeći stvarati što originalnije i
               jedinstvene projekte.
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.h1
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='title'
             >
               The Ideal Solution
-            </motion.div>
-            <motion.div
+            </motion.h1>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
@@ -101,16 +101,16 @@ const About = () => {
                   u zone te izbor biljnog materijala predviđenog u projektu
                 </li>
               </ol>
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.h1
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='title'
             >
               Detailed Design
-            </motion.div>
-            <motion.div
+            </motion.h1>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
@@ -126,56 +126,56 @@ const About = () => {
               stručnjaka iz svih područja potrebnih za finalnu realizaciju
               projekta čime Vam u potpunosti olakšavamo ovo po mnogima izazovno
               iskustvo.
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.h1
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='title'
             >
               Contact
-            </motion.div>
-            <motion.div
+            </motion.h1>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='text'
             >
               Mail: info@mi-life-design.com
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='text'
             >
               Ivana Bogovic: + 385 99 31 50 511
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='text'
             >
               Mate Tokic: + 385 98 774 610
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='text'
             >
               Ured: + 385 1 2385 441
-            </motion.div>
-            <motion.div
+            </motion.p>
+            <motion.h1
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='title'
             >
               Social Media
-            </motion.div>
-            <motion.div
+            </motion.h1>
+            <motion.p
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
@@ -185,9 +185,9 @@ const About = () => {
                 <AiOutlineFacebook />
                 Facebook
               </a>
-            </motion.div>
+            </motion.p>
 
-            <motion.div
+            <motion.p
               initial={{ y: 10, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
@@ -198,7 +198,7 @@ const About = () => {
                 <AiOutlineInstagram />
                 Instagram
               </a>
-            </motion.div>
+            </motion.p>
           </div>
         </Container>
       </motion.div>
