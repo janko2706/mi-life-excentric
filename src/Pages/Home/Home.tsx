@@ -31,6 +31,7 @@ const Home = () => {
   ];
   const track = useRef<HTMLDivElement>(null);
   const [mouseDownAt, setMouseDownAt] = useState(0);
+
   const [isClickPossible, setIsClickPossible] = useState(true);
   const [prevPercentage, setPrevPercentage] = useState(0);
   const [percentageStore, setPercentageStore] = useState(0);

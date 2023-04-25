@@ -9,7 +9,6 @@ import Project from './Pages/Project/Project';
 
 function AnimatedRoutes() {
   const location = useLocation();
-
   return (
     <AnimatePresence mode='wait'>
       <Routes key={location.pathname} location={location}>
