@@ -8,11 +8,15 @@ import Routes from './Routes';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      setLoaded(true);
-    }, 3000);
-  });
+  if (window.innerWidth > 900) {
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        setLoaded(true);
+      }, 3000);
+    });
+  } else {
+    setLoaded(false);
+  }
   window.addEventListener(
     'scroll',
     () => {
