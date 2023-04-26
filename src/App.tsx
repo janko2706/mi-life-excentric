@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -8,11 +8,22 @@ import Routes from './Routes';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
-  window.addEventListener('load', () => {
-    setTimeout(() => {
-      setLoaded(true);
-    }, 3000);
-  });
+  useEffect(() => {
+    window.innerWidth < 900 && setLoaded(true);
+    window.addEventListener('load', () => {
+      setTimeout(() => {
+        setLoaded(true);
+      }, 3000);
+    });
+    return () =>
+      document.removeEventListener('load', () => {
+        if (window.innerWidth > 900) {
+          setTimeout(() => {
+            setLoaded(true);
+          }, 3000);
+        }
+      });
+  }, [setLoaded]);
 
   window.addEventListener(
     'scroll',
