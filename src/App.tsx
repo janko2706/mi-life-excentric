@@ -15,7 +15,7 @@ function App() {
       }, 3000);
     });
   } else {
-    setLoaded(false);
+    setLoaded(true);
   }
   window.addEventListener(
     'scroll',
