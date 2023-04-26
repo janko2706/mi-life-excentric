@@ -61,8 +61,7 @@ export const Container = styled.div`
     }
     .textCont {
       width: 100vw !important;
-      border: 1px solid red;
-      text-align: right;
+      text-align: left;
       margin: 0 0 !important;
     }
   }

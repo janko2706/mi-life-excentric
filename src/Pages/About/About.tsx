@@ -185,7 +185,7 @@ const About = () => {
               Social Media
             </motion.h1>
             <motion.p
-              initial={{ y: 100, opacity: 0 }}
+              initial={{ y: 10, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='text'
