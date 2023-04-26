@@ -6,7 +6,7 @@ export const Container = styled.div`
   }
   *::selection {
     color: white;
-    background: var(--eggplant);
+    background: var(--dark-eggplant);
   }
 
   & li {
@@ -15,8 +15,20 @@ export const Container = styled.div`
   & ol {
     list-style-type: inherit;
   }
-
+  .officePic {
+    height: 100%;
+    width: 100vmin;
+    position: absolute;
+    top: 50vmin;
+    left: 3%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 00%;
+    z-index: 1;
+  }
   .firstText {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
     position: fixed;
     color: white;
     font-weight: lighter;
@@ -29,6 +41,8 @@ export const Container = styled.div`
   }
 
   .secondText {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
     background-color: rgba(89, 66, 80, 0.7);
     padding: 0.3em;
     position: fixed;
@@ -41,7 +55,8 @@ export const Container = styled.div`
   }
   @media (max-width: 800px) {
     .firstText,
-    .secondText {
+    .secondText,
+    .officePic {
       display: none;
     }
     .textCont {
@@ -58,32 +73,32 @@ export const Container = styled.div`
     letter-spacing: 0.3vmin;
   }
   .textCont {
-    width: 40%;
+    width: 53%;
     overflow: hidden;
     z-index: 100;
     display: flex;
     flex-direction: column;
     padding-top: 20vmin;
-    text-align: left;
-    margin: auto 55%;
+    margin: 0 45%;
     gap: 4vmin;
   }
   .title {
     overflow: hidden;
     font-size: 8vmin;
     width: fit-content;
-    font-weight: 300;
+    font-weight: 400;
+    color: whitesmoke;
   }
   .text {
     font-weight: 300;
-
+    color: whitesmoke;
     font-size: 4vmin;
     letter-spacing: 0.1vmin;
     width: 100%;
   }
   .text > a {
     text-decoration: none !important;
-    color: black;
+    color: whitesmoke;
     display: flex;
     align-items: center;
     text-align: center;

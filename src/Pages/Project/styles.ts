@@ -78,7 +78,7 @@ export const TextCont = styled.div`
 `;
 export const TitleStyled = styled.div`
   position: absolute;
-  top: 45vmin;
+  top: 120vmin;
   left: 60vmin;
   font-size: 12vmin;
   color: whitesmoke;
@@ -86,6 +86,19 @@ export const TitleStyled = styled.div`
   font-weight: 500;
   text-transform: uppercase;
   z-index: -1;
+  animation-duration: 3s;
+  animation-name: rotate2;
+  animation-timing-function: linear;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -5s);
+  transform: translate(0%, -75vmin);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  @keyframes rotate2 {
+    to {
+      transform: translate(0%, 0%);
+    }
+  }
 `;
 export const TitleStyledStroked = styled.div`
   color: transparent !important;

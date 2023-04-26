@@ -18,12 +18,13 @@ export const ImageStyled = styled.img<StyleProps>`
   animation-duration: ${(props) =>
     props.imageIsChoosen ? `${props.randomNumberForDownAnim}s ` : ''};
   animation-timing-function: ease;
-  transition: ${(props) =>
-    props.imageIsChoosen
-      ? `none`
-      : ' all 2s cubic-bezier(0, 1.02, 0.87, 0.94)'};
-  object-position: ${(props) =>
-    `${props.objectPosition + 100}% 50% !important`};
+  transition: ${
+    (props) =>
+      props.imageIsChoosen
+        ? `none`
+        : 'all 2s cubic-bezier(0, 1.02, 0.87, 0.94)' /* ' all 2s cubic-bezier(0, 1.02, 0.87, 0.94)' */
+  };
+  object-position: ${(props) => `${props.objectPosition + 100}% 50% `};
   @keyframes lower-scroll {
     from {
       transform: translateY(-200%) translateX(-200%);

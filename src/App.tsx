@@ -11,7 +11,7 @@ function App() {
   window.addEventListener('load', () => {
     setTimeout(() => {
       setLoaded(true);
-    }, 2000);
+    }, 3000);
   });
   window.addEventListener(
     'scroll',

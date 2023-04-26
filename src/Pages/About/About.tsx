@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, useScroll } from 'framer-motion';
 import { Container } from './styles';
+import OfficePicture from '../../Assets/Pictures/office.jpeg';
 import { AiOutlineFacebook, AiOutlineInstagram } from 'react-icons/ai';
 
 const About = () => {
@@ -23,6 +24,14 @@ const About = () => {
           Bring Your <span>Dreams</span>
         </motion.div>
         <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          exit={{ x: '100%', opacity: 0 }}
+          transition={{ duration: 0.3, ease: [0.45, 0.36, 0.22, 0.98] }}
+          className='officePic'
+          style={{ backgroundImage: `url(${OfficePicture})` }}
+        />
+        <motion.div
           initial={{ y: 100, opacity: 0 }}
           exit={{ x: '100%', opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -37,7 +46,7 @@ const About = () => {
         exit={{ x: '100%' }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, ease: [0.77, 0.16, 0.64, 0.91] }}
-        style={{ background: 'var(--grullo)', height: '100%' }}
+        style={{ background: 'var(--eggplant)', height: '100%' }}
       >
         <Container>
           <div className='textCont'>
