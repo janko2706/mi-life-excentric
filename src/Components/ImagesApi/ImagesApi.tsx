@@ -84,12 +84,6 @@ import project10_5 from '../../Assets/Pictures/Projekt10/5.webp';
 import project10_6 from '../../Assets/Pictures/Projekt10/6.webp';
 import project10_7 from '../../Assets/Pictures/Projekt10/7.webp';
 import project10_8 from '../../Assets/Pictures/Projekt10/8.webp';
-import project11_1 from '../../Assets/Pictures/Projekt11/1.webp';
-import project11_2 from '../../Assets/Pictures/Projekt11/2.webp';
-import project11_3 from '../../Assets/Pictures/Projekt11/3.webp';
-import project11_4 from '../../Assets/Pictures/Projekt11/4.webp';
-import project11_5 from '../../Assets/Pictures/Projekt11/5.webp';
-import project11_6 from '../../Assets/Pictures/Projekt11/6.webp';
 
 export const ImagesApi: {
   pictures: any[];
@@ -105,8 +99,8 @@ export const ImagesApi: {
       project1_5,
       project1_6,
     ],
-    name: 'Project 1',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Kolarovec',
+    about: { location: 'Kolarovec', info: 'Minimalistic modern house' },
   },
   {
     pictures: [
@@ -120,8 +114,8 @@ export const ImagesApi: {
       project2_8,
       project2_9,
     ],
-    name: 'Project 2',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Pula',
+    about: { location: 'Pula', info: 'Eclectic 1 bedroom apartament' },
   },
   {
     pictures: [
@@ -135,8 +129,8 @@ export const ImagesApi: {
       project3_8,
       project3_9,
     ],
-    name: 'Project 3',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Zadar',
+    about: { location: 'Zadar', info: 'An elegant villa on the sea' },
   },
   {
     pictures: [
@@ -150,8 +144,8 @@ export const ImagesApi: {
       project4_8,
       project4_9,
     ],
-    name: 'Project 4',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Spansko',
+    about: { location: 'Zagreb-Spansko', info: 'A little romantic apartament' },
   },
   {
     pictures: [
@@ -165,8 +159,8 @@ export const ImagesApi: {
       project5_8,
       project5_9,
     ],
-    name: 'Project 5',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Ivanec',
+    about: { location: 'Ivanec', info: 'Modern penthouse' },
   },
   {
     pictures: [
@@ -180,8 +174,8 @@ export const ImagesApi: {
       project6_8,
       project6_9,
     ],
-    name: 'Project 6',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Zapresic',
+    about: { location: 'Zapresic', info: 'Stylish 2 bedroom apartament' },
   },
   {
     pictures: [
@@ -195,8 +189,8 @@ export const ImagesApi: {
       project7_8,
       project7_9,
     ],
-    name: 'Project 7',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Split',
+    about: { location: 'Split', info: 'Astonishing villa on the sea' },
   },
   {
     pictures: [
@@ -210,8 +204,8 @@ export const ImagesApi: {
       project8_8,
       project8_9,
     ],
-    name: 'Project 8',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Ugljan',
+    about: { location: 'Island of Ugljan', info: 'A traditional rustic villa' },
   },
   {
     pictures: [
@@ -225,8 +219,8 @@ export const ImagesApi: {
       project9_8,
       project9_9,
     ],
-    name: 'Project 9',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Playground',
+    about: { location: 'Samobor', info: 'A playfull children playground' },
   },
   {
     pictures: [
@@ -234,24 +228,12 @@ export const ImagesApi: {
       project10_2,
       project10_3,
       project10_4,
-      project10_5,
+      project10_8,
       project10_6,
       project10_7,
-      project10_8,
+      project10_5,
     ],
-    name: 'Project 10',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
-  },
-  {
-    pictures: [
-      project11_1,
-      project11_2,
-      project11_3,
-      project11_4,
-      project11_5,
-      project11_6,
-    ],
-    name: 'Project 11',
-    about: { location: 'Zagreb', info: 'Sve je super proslo' },
+    name: 'Project Brac',
+    about: { location: 'Isalnd of Brac', info: 'Heritage boutique hotel' },
   },
 ];

@@ -64,14 +64,14 @@ const About = () => {
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='text'
             >
-              Mi Life Design je tvrtka posvećena dizajnu interijera i
-              eksterijera svih životnih prostora. Kreativni dvojac Ivana Bogović
-              i Mate Tokić predvode tim stručnjaka iz područja dizajna,
-              arhitekture i građevine čime našim klijentima omogućujemo
-              sveobuhvatnu uslugu prilikom realizacije projekata. Iza našeg
-              dugogodišnjeg rada stoje mnogobrojni projekti kako u Hrvatskoj
-              tako i u inozemstvu. Nastojeći stvarati što originalnije i
-              jedinstvene projekte.
+              Mi Life Design is a company dedicated to interior and exterior
+              design of all living spaces. The creative duo Ivana Bogović and
+              Mate Tokić lead a team of experts in the field of design,
+              architecture and construction, which enables our clients to
+              receive a comprehensive service during the implementation of
+              projects. Behind our many years of work are numerous projects both
+              in Croatia and abroad. Striving to create as original and unique
+              projects as possible.
             </motion.p>
             <motion.h1
               initial={{ y: 100, opacity: 0 }}
@@ -79,7 +79,7 @@ const About = () => {
               transition={{ duration: 0.8, ease: [0.45, 0.36, 0.22, 0.98] }}
               className='title'
             >
-              The Ideal Solution
+              Executable project solution
             </motion.h1>
             <motion.p
               initial={{ y: 100, opacity: 0 }}

@@ -10,24 +10,22 @@ import project7 from '../../Assets/Pictures/Projekt7/9.jpg';
 import project8 from '../../Assets/Pictures/Projekt8/1.webp';
 import project9 from '../../Assets/Pictures/Projekt9/1.webp';
 import project10 from '../../Assets/Pictures/Projekt10/1.webp';
-import project11 from '../../Assets/Pictures/Projekt11/1.webp';
 import Images from '../../Components/Images/Images';
 import { motion } from 'framer-motion';
 import ScrollDown from '../../Components/ScrollDown/ScrollDown';
 
 const Home = () => {
   const slidePictures: { picture: string; title: string; color?: string }[] = [
-    { picture: project2, title: 'Project 2' },
-    { picture: project1, title: 'Project 1' },
-    { picture: project3, title: 'Project 3' },
-    { picture: project4, title: 'Project 4' },
-    { picture: project5, title: 'Project 5' },
-    { picture: project6, title: 'Project 6' },
-    { picture: project7, title: 'Project 7' },
-    { picture: project8, title: 'Project 8' },
-    { picture: project9, title: 'Project 9' },
-    { picture: project10, title: 'Project 10' },
-    { picture: project11, title: 'Project 11' },
+    { picture: project2, title: 'Project Pula' },
+    { picture: project3, title: 'Project Zadar' },
+    { picture: project4, title: 'Project Spansko' },
+    { picture: project5, title: 'Project Ivanec' },
+    { picture: project6, title: 'Project Zapresic' },
+    { picture: project7, title: 'Project Split' },
+    { picture: project8, title: 'Project Ugljan' },
+    { picture: project9, title: 'Project Playground' },
+    { picture: project10, title: 'Project Brac' },
+    { picture: project1, title: 'Project Kolarovec' },
   ];
   const track = useRef<HTMLDivElement>(null);
   const [mouseDownAt, setMouseDownAt] = useState(0);

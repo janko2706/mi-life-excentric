@@ -1,7 +1,8 @@
 :root {
+  /* #b38d86 */
   --dust-storm: rgba(216, 198, 202, 1); /* #d9c7cb */
   --eggplant: rgba(89, 66, 80, 1); /* #594251 */
-  --dark-eggplant: rgba(56, 43, 51, 1); /* #594251 */
+  --dark-eggplant: rgba(56, 43, 51, 1);
   --grullo: rgba(165, 140, 137, 1); /* #a68c8a */
   --anti-flash-white: rgba(242, 242, 242, 1); /* #f2f2f2 */
   --smokey-black: rgba(12, 12, 12, 1); /* #0d0d0d */
